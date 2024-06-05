@@ -55,7 +55,15 @@ def Continue():
         else:
             print("Digite S ou N")
   return Acabou 
-  
+
+
+##FUNÇÃO PALAVRA##
+
+def apresentapalavra(letras):
+    npalavra = "_" * len (letras)
+    return npalavra
+
+print(apresentapalavra(""))
 
 
 
